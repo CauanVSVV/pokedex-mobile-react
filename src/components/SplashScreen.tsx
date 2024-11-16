@@ -94,7 +94,7 @@ const SplashScreen: React.FC = () => {
             className="absolute w-20 h-20"
             style={{
               animation: `fall ${4 + Math.random() * 50}s linear infinite`, // Duração aleatória entre 4 e 9 segundos
-              left: `${Math.random() * 80}%`, // Posição horizontal aleatória
+              left: `${Math.random() * 90}%`, // Posição horizontal aleatória
               top: `-${Math.random() * 50}vh`, // Começa fora da tela
             }}
           />
